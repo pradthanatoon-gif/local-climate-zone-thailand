@@ -2,7 +2,7 @@ name: Run Python Script
 
 on:
   push:
-  workflow_dispatch:   # ปุ่มกดรันเอง
+  workflow_dispatch:
 
 jobs:
   run-python:
@@ -17,6 +17,11 @@ jobs:
       with:
         python-version: '3.10'
 
-    - name: Run animation aerosol.py
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+
+    - name: Run animation aerosol
       run: |
         python "animation aerosol.py"
+
