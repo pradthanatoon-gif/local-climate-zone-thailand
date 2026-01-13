@@ -19,4 +19,4 @@ jobs:
 
     - name: Run animation aerosol.py
       run: |
-        python main.py
+        python animation aerosol.py
