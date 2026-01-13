@@ -32,7 +32,7 @@ cycler==0.12.1
 datapi==0.4.0
 debugpy==1.8.13
 decorator==5.2.1
-earthaccess==0.15.1
+earthaccess==0.14.0
 earthengine-api==1.5.12
 eerepr==0.1.1
 esda==2.7.0
@@ -193,3 +193,4 @@ xarray==2025.3.1
 xgboost==3.0.5
 xyzservices==2025.1.0
 yarl==1.20.1
+
