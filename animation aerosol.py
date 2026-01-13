@@ -1,3 +1,6 @@
+import matplotlib
+matplotlib.use("Agg")
+
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
@@ -143,3 +146,4 @@ def update(frame):
 # ============================
 ani = FuncAnimation(fig, update, interval=120)
 plt.show()
+
